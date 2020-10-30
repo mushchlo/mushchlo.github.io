@@ -1,0 +1,61 @@
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 30px;
+  margin: 0px 20px;
+  width: 100px;
+  text-align: center;
+}
+.box.hidden {
+  visibility: hidden;
+}
+
+.lines {
+  margin-left: 100px;
+}
+
+.line {
+  display: inline-block;
+  border: 1px solid black;
+  border-top: none;
+  height: 30px;
+  width: 200px;
+  margin-left: -1px;
+  margin-right: 0;
+}
+
+.connect {
+  height: 30px;
+  border-right: 1px solid black;
+}
+.connect.three {
+  width: 300px;
+  margin-top: -5px;
+}
+</style>
+</head>
+<html>
+<div>
+<div class="box">Foo</div>
+<div class="box">Bar</div>
+<div class="box">Baz</div>
+</div>
+
+<div class="lines">
+<div class="line"></div><div class="line"></div>
+</div>
+
+<div class="connect three">
+</div>
+
+<div>
+<div class="hidden box"></div>
+<div class="box">Quux</div>
+</div>
+</html>
