@@ -1,0 +1,55 @@
+body {
+	background-color: #202027;
+	color: #FFFFFF;
+	padding: 20px;
+}
+a:link {
+	color: #aed6ef;
+}
+a:visited {
+	color: #e8caf9;
+}
+a:hover {
+	color: #82bfe5;
+}
+h1 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+	margin-top: 3em;
+}
+p {
+	text-align: justify;
+	line-height: 1.5;
+}
+li {
+	text-align: justify;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+sup, sub {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}
+sub { 
+	top: 0.4em; 
+}
+img {
+	width: auto;
+	max-width: 70%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
